@@ -1,0 +1,28 @@
+#--------------------------------------------------------------------
+# Codeigniter vite
+#--------------------------------------------------------------------
+
+VITE_AUTO_INJECTING=true
+VITE_EXCLUDED_ROUTES=''
+VITE_ORIGIN='http://localhost:3479'
+VITE_PORT=3479
+VITE_BUILD_DIR='build'
+VITE_ENTRY_FILE='main.jsx'
+VITE_RESOURCES_DIR='resources'
+VITE_FRAMEWORK='react'
+VITE_BACKUP_FILE='env-BACKUP-1711664210'
+
+
+#--------------------------------------------------------------------
+# Codeigniter vite
+#--------------------------------------------------------------------
+
+VITE_AUTO_INJECTING=true
+VITE_EXCLUDED_ROUTES=''
+VITE_ORIGIN='http://localhost:3479'
+VITE_PORT=3479
+VITE_BUILD_DIR='build'
+VITE_ENTRY_FILE='main.js'
+VITE_RESOURCES_DIR='resources'
+VITE_FRAMEWORK='none'
+VITE_BACKUP_FILE='env-BACKUP-1711664210'

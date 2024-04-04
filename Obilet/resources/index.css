@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-[#5D686E];
+}
+
+@font-face {
+  font-family: FuturaND;
+  src: url(./assets/Futura_ND_Medium.ttf);
+}
+
+input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.1em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+
+}
+
+:root {
+  --form-control-color: #08A250;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.deneme {
+  font-family: FuturaND;
+  letter-spacing: 1px !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.grid-cols-13 {
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+}

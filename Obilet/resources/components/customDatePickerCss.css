@@ -1,0 +1,33 @@
+/* Takvim arka plan rengi */
+.react-datepicker {
+  background-color: #fff;
+  border-radius: 8px;
+  border-width: 0px;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.previous-selected-day {
+  background-color: #f0f0f0; /* Gri tonunda bir arka plan rengi */
+}
+
+/* Seçilen tarih rengi */
+.react-datepicker__day--selected {
+  background-color: #08A250;
+  color: #fff !important; /* Seçilen tarih metin rengi */
+}
+
+/* Takvim metin rengi */
+.react-datepicker__day-name {
+  color: #333;
+
+}
+.react-datepicker__day {
+  color: #333;
+}
+
+.before-yesterday {
+  color: gainsboro;
+  cursor: not-allowed;
+}
